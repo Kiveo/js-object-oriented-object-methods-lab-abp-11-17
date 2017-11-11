@@ -4,6 +4,6 @@ function BoardMember(name, homeState, training) {
   this.training = training;
   //method
   this.veto = function() {
-    
+    return "No, I must disagree.";
   }
 }
